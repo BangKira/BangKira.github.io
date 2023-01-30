@@ -1,0 +1,45 @@
+body{
+    background-image: url("/images/fond7.gif");
+    background-repeat: no-repeat, repeat;
+    background-size:contain;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    transition:2s;
+}
+.pre2{
+    margin: 0 0 1.5em 0;
+    text-align: center;
+}
+
+#haut
+{
+    background-size: cover; 
+	background-position: center ;
+    height: 340px;
+    width: 1000px;
+}
+
+.presentation{
+    background-image:url('/images/card.gif');
+    display: inline-block;
+    padding: 8em 15em;
+    border-radius: 5px;
+    text-align: center;
+    background-size: cover; 
+	background-position: center ;
+    border-radius: 1000px;
+    border: solid rgb(39, 158, 167) !important;
+    box-shadow: 1px 5px 12px 5px rgb(15, 73, 90) ;
+    color:#4fabc2;
+}
+#cent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 25vh;
+  }
